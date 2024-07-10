@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 400px;
+    margin: 16px auto ;
+}
+
+.container h1{
+    font-size: 20px;
+    border-bottom: 1px solid #1e1a1a;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form{
+    display: flex;
+    gap:8px;
+    margin-top: 16px;
+}
+
+form input{
+    flex:1 ;
+    padding: 4px ;
+}
+
+li{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+li input:checked+span{
+    color:#aaa;
+    text-decoration: line-through;
+}
+
+li input{
+    margin-right:8px;
+}
+
+li label{
+    margin-right:8px;
+}
+
+form{
+    display: flex;
+    gap:8px;
+}
+
+form input{
+    flex: 1;
+    padding: 4px;
+}
